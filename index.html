@@ -1,109 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Creative Portfolios</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SEO & Web Designer Portfolio</title>
 
   <!-- Bootstrap -->
-  <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-  />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-  <!-- Bootstrap Icons -->
+  <!-- Icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-  <link rel="stylesheet" href="style.css">
 
-  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+
+
 </head>
 <body>
 
-  <!-- NAVBAR -->
+<div class="cursor"></div>
 
-  <nav class="navbar navbar-expand-lg fixed-top">
-    <div class="container">
+<!-- NAVBAR -->
 
-      <a class="navbar-brand" href="#">Portfolio</a>
+<nav class="navbar navbar-expand-lg fixed-top">
 
-      <button
-        class="navbar-toggler bg-light"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarNav"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  <div class="container">
 
-      <div class="collapse navbar-collapse" id="navbarNav">
+    <a class="navbar-brand" href="#">SEOX</a>
 
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#home">Home</a>
-          </li>
+    <button class="navbar-toggler bg-light" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-          <li class="nav-item">
-            <a class="nav-link" href="#services">Services</a>
-          </li>
+    <div class="collapse navbar-collapse" id="menu">
 
-          <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Portfolio</a>
-          </li>
+      <ul class="navbar-nav ms-auto">
 
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Services</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Projects</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+
+      </ul>
+
+    </div>
+
+  </div>
+
+</nav>
+
+<!-- HERO -->
+
+<section class="hero">
+
+  <div class="container">
+
+    <div class="row align-items-center">
+
+      <div class="col-lg-7" data-aos="fade-right">
+
+        <h1>
+          SEO <span>Expert</span><br>
+          & Website Designer
+        </h1>
+
+        <p>
+          I build high-converting websites, modern branding,
+          premium UI experiences and SEO systems that rank businesses on Google.
+        </p>
+
+        <div class="hero-buttons">
+
+          <a href="#" class="btn-main">
+            View Projects
+          </a>
+
+          <a href="#" class="btn-outline-custom">
+            Hire Me
+          </a>
+
+        </div>
 
       </div>
 
-    </div>
-  </nav>
+      <div class="col-lg-5 mt-5 mt-lg-0" data-aos="zoom-in">
 
-  <!-- HERO -->
+        <div class="floating-card">
 
-  <section class="hero" id="home">
+          <i class="bi bi-bar-chart-line-fill"></i>
 
-    <div class="container">
+          <h3>Google Ranking</h3>
 
-      <div class="row align-items-center">
-
-        <div class="col-lg-6">
-
-          <h1>
-            Creative <span>Graphic Designer</span> & Video Editor
-          </h1>
-
-          <p>
-            I create modern branding, cinematic video editing,
-            social media creatives, UI designs and premium visuals
-            for brands and businesses.
+          <p class="mt-3 text-secondary">
+            SEO optimization, responsive websites,
+            speed optimization and conversion focused design.
           </p>
 
-          <div class="hero-btn">
-            <a href="#" class="btn btn-custom">
-              View Portfolio
-            </a>
-          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- MARQUEE -->
+
+<div class="marquee">
+
+  <div class="marquee-content">
+
+    <span>SEO EXPERT</span>
+    <span>WEB DESIGNER</span>
+    <span>DIGITAL MARKETING</span>
+    <span>GOOGLE RANKING</span>
+    <span>UI DESIGN</span>
+    <span>SEO EXPERT</span>
+
+  </div>
+
+</div>
+
+<!-- SERVICES -->
+
+<section>
+
+  <div class="container">
+
+    <div class="section-title text-center" data-aos="fade-up">
+
+      <h2>Services</h2>
+
+      <p>Premium digital solutions for modern brands</p>
+
+    </div>
+
+    <div class="row g-4">
+
+      <div class="col-lg-4" data-aos="fade-up">
+
+        <div class="service-card">
+
+          <i class="bi bi-search"></i>
+
+          <h3>SEO</h3>
+
+          <p>
+            On-page SEO, technical SEO,
+            Google ranking and keyword optimization.
+          </p>
 
         </div>
 
-        <div class="col-lg-6">
+      </div>
 
-          <div class="hero-image">
-            <img
-              src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop"
-              alt=""
-            >
-          </div>
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+
+        <div class="service-card">
+
+          <i class="bi bi-laptop"></i>
+
+          <h3>Web Design</h3>
+
+          <p>
+            Premium responsive websites
+            with modern UI and animations.
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="400">
+
+        <div class="service-card">
+
+          <i class="bi bi-graph-up-arrow"></i>
+
+          <h3>Marketing</h3>
+
+          <p>
+            Digital growth systems,
+            social branding and lead generation.
+          </p>
 
         </div>
 
@@ -111,164 +210,55 @@
 
     </div>
 
-  </section>
+  </div>
 
-  <!-- SERVICES -->
+</section>
 
-  <section id="services">
+<!-- PROJECTS -->
 
-    <div class="container">
+<section>
 
-      <div class="section-title">
-        <h2>My Services</h2>
-        <p>Premium creative services for modern brands</p>
-      </div>
+  <div class="container">
 
-      <div class="row g-4">
+    <div class="section-title text-center" data-aos="fade-up">
 
-        <div class="col-lg-4 col-md-6">
-          <div class="service-card">
-            <i class="bi bi-palette-fill"></i>
-            <h4>Graphic Design</h4>
-            <p>
-              Social media posts, banners, branding,
-              logos and advertising creatives.
-            </p>
-          </div>
-        </div>
+      <h2>Projects</h2>
 
-        <div class="col-lg-4 col-md-6">
-          <div class="service-card">
-            <i class="bi bi-camera-reels-fill"></i>
-            <h4>Video Editing</h4>
-            <p>
-              Cinematic reels, YouTube editing,
-              ads and motion graphics videos.
-            </p>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6">
-          <div class="service-card">
-            <i class="bi bi-phone-fill"></i>
-            <h4>UI/UX Design</h4>
-            <p>
-              Mobile responsive website designs
-              and app interfaces for businesses.
-            </p>
-          </div>
-        </div>
-
-      </div>
+      <p>Selected premium works</p>
 
     </div>
 
-  </section>
+    <div class="row g-4">
 
-  <!-- PORTFOLIO -->
+      <div class="col-lg-6" data-aos="zoom-in">
 
-  <section id="portfolio">
+        <div class="portfolio-card">
 
-    <div class="container">
+          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop">
 
-      <div class="section-title">
-        <h2>Recent Projects</h2>
-        <p>Latest creative works and client projects</p>
-      </div>
+          <div class="portfolio-overlay">
 
-      <div class="row g-4">
+            <h2>Luxury Website</h2>
 
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-card">
-
-            <img
-              src="https://images.unsplash.com/photo-1523726491678-bf852e717f6a?q=80&w=1200&auto=format&fit=crop"
-              alt=""
-            >
-
-            <div class="portfolio-overlay">
-              <h4>Brand Design</h4>
-              <p>Social Media Campaign</p>
-            </div>
+            <p>Responsive business website design</p>
 
           </div>
-        </div>
 
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-card">
-
-            <img
-              src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop"
-              alt=""
-            >
-
-            <div class="portfolio-overlay">
-              <h4>Website UI</h4>
-              <p>Modern Portfolio Design</p>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6">
-          <div class="portfolio-card">
-
-            <img
-              src="https://images.unsplash.com/photo-1485846234645-a62644f84728?q=80&w=1200&auto=format&fit=crop"
-              alt=""
-            >
-
-            <div class="portfolio-overlay">
-              <h4>Video Editing</h4>
-              <p>Cinematic Commercial</p>
-            </div>
-
-          </div>
         </div>
 
       </div>
 
-    </div>
+      <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="300">
 
-  </section>
+        <div class="portfolio-card">
 
-  <!-- ABOUT -->
+          <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format&fit=crop">
 
-  <section id="about">
+          <div class="portfolio-overlay">
 
-    <div class="container">
+            <h2>SEO Campaign</h2>
 
-      <div class="section-title">
-        <h2>About Me</h2>
-      </div>
-
-      <div class="about-box">
-
-        <div class="row align-items-center">
-
-          <div class="col-lg-6">
-
-            <img
-              src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1200&auto=format&fit=crop"
-              class="img-fluid rounded-4"
-              alt=""
-            >
-
-          </div>
-
-          <div class="col-lg-6 mt-4 mt-lg-0">
-
-            <p>
-              I am a passionate creative designer focused on building
-              premium visual experiences for businesses and creators.
-              My work combines clean design, cinematic editing and
-              modern digital branding.
-            </p>
-
-            <p>
-              I specialize in portfolio websites, social media branding,
-              ad creatives and professional video production.
-            </p>
+            <p>Google ranking optimization project</p>
 
           </div>
 
@@ -278,83 +268,130 @@
 
     </div>
 
-  </section>
+  </div>
 
-  <!-- CONTACT -->
+</section>
 
-  <section id="contact">
+<!-- STATS -->
 
-    <div class="container">
+<section>
 
-      <div class="section-title">
-        <h2>Contact Me</h2>
-        <p>Let's work together</p>
+  <div class="container">
+
+    <div class="row g-4">
+
+      <div class="col-lg-4" data-aos="fade-up">
+
+        <div class="stats-box">
+
+          <h2>120+</h2>
+
+          <p>Projects Completed</p>
+
+        </div>
+
       </div>
 
-      <div class="row g-4">
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
 
-        <div class="col-lg-4">
-          <div class="contact-box">
-            <i class="bi bi-envelope-fill"></i>
-            <h5>Email</h5>
-            <p>yourmail@gmail.com</p>
-          </div>
+        <div class="stats-box">
+
+          <h2>95%</h2>
+
+          <p>SEO Success Rate</p>
+
         </div>
 
-        <div class="col-lg-4">
-          <div class="contact-box">
-            <i class="bi bi-instagram"></i>
-            <h5>Instagram</h5>
-            <p>@yourusername</p>
-          </div>
-        </div>
+      </div>
 
-        <div class="col-lg-4">
-          <div class="contact-box">
-            <i class="bi bi-whatsapp"></i>
-            <h5>WhatsApp</h5>
-            <p>+91 9876543210</p>
-          </div>
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="400">
+
+        <div class="stats-box">
+
+          <h2>5★</h2>
+
+          <p>Client Reviews</p>
+
         </div>
 
       </div>
 
     </div>
 
-  </section>
+  </div>
 
-  <!-- FOOTER -->
+</section>
 
-  <footer>
-    <div class="container">
-      © 2026 Creative Portfolio. All Rights Reserved.
+<!-- CONTACT -->
+
+<section>
+
+  <div class="container">
+
+    <div class="contact-box" data-aos="zoom-in">
+
+      <h2>Let's Build Something Powerful</h2>
+
+      <p>
+        Available for SEO projects, website design,
+        branding and digital business growth.
+      </p>
+
+      <div class="socials">
+
+        <a href="#">
+          <i class="bi bi-instagram"></i>
+        </a>
+
+        <a href="#">
+          <i class="bi bi-whatsapp"></i>
+        </a>
+
+        <a href="#">
+          <i class="bi bi-youtube"></i>
+        </a>
+
+        <a href="#">
+          <i class="bi bi-envelope-fill"></i>
+        </a>
+
+      </div>
+
     </div>
-  </footer>
 
-  <!-- Bootstrap JS -->
+  </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</section>
 
-  <script>
+<footer>
+  © 2026 SEO & Web Designer Portfolio
+</footer>
 
-    // Smooth Scroll
+<!-- JS -->
 
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-      anchor.addEventListener('click', function (e) {
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 
-        e.preventDefault();
+<script>
 
-        document.querySelector(this.getAttribute('href'))
-          .scrollIntoView({
-            behavior: 'smooth'
-          });
+  AOS.init({
+    duration:1200,
+    once:false
+  });
 
-      });
+  // CUSTOM CURSOR
 
-    });
+  const cursor = document.querySelector('.cursor');
 
-  </script>
+  document.addEventListener('mousemove',e=>{
+
+    cursor.style.left = e.clientX + 'px';
+    cursor.style.top = e.clientY + 'px';
+
+  });
+
+</script>
 
 </body>
 </html>
